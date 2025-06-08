@@ -11,7 +11,7 @@ public class BillingCalculator {
     public static double calculateReturnAmount(double weight, double rate) {
         return weight * rate;
     }
-
+// Adding some comments
     // Calculate final amount
     public static double calculateFinalAmount(double total, double gst, double returnAmount) {
         return (total + gst) - returnAmount;
